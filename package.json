@@ -1,19 +1,23 @@
 {
-  "name": "solar-sphere",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "astro": "astro",
     "build": "astro check && astro build",
+    "dev": "astro dev",
     "preview": "astro preview",
-    "astro": "astro"
+    "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.24.4",
-    "astro": "^4.10.2",
-    "sharp": "^0.32.5",
     "@astrojs/check": "^0.7.0",
+    "@astrojs/starlight": "^0.24.4",
+    "astro": "^4.11.0",
+    "sharp": "^0.33.4",
     "typescript": "^5.5.2"
-  }
+  },
+  "packageManager": "pnpm@9.1.4"
 }
